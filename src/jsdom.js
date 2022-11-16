@@ -73,7 +73,7 @@ function defaultOptions() {
             FetchExternalResources: ['script'],
             ProcessExternalResources: ['script'],
         },
-        runScripts: 'dangerously',
+        runScripts: 'outside-only',
         userAgent: 'uncss',
         virtualConsole: new VirtualConsole().sendTo(new Console(process.stderr)),
     };
